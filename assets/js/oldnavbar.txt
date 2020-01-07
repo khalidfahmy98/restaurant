@@ -1,0 +1,102 @@
+    <nav class="navbar-container no-padding menu">
+        <div class="container no-space">
+            <div class="row">
+                <div class="link-container-of-item ">
+                    <div class="nav-item purple-background">
+                        ????????
+                    </div>
+                    <div class="item-links-childs">
+                      <a href="mebeat/index.html" class="child">??? ????</a>
+                       <a href="mebeat/sellreturn.html" class="child">????? ???</a>
+                    </div>
+                </div><!-- end of item -->
+                <div class="link-container-of-item ">
+                    <div class="nav-item semiblue-background">
+                        ?????
+                    </div>
+                    <div class="item-links-childs">
+                      <a href="#" class="child">????? ???????</a>
+                       <a href="#" class="child">?????? ???????</a>
+                    </div>
+                </div><!-- end of item -->
+                <div class="link-container-of-item">
+                    <div class="nav-item semigreen-background">
+                        ?????????
+                    </div>
+                    <div class="item-links-childs">
+                      <a href="#" class="child">???? ????</a>
+                       <a href="#" class="child">??????  ?????????</a>
+                      <a href="#" class="child">????? ??????</a>
+                    </div>
+                </div><!-- end of item -->
+                <div class="link-container-of-item ">
+                    <div class="nav-item purple-background">
+                        ???????
+                    </div>
+                    <div class="item-links-childs">
+                      <a href="#" class="child">???? ??? ?????</a>
+                       <a href="#" class="child">???????? ??? ???????</a>
+                       <a href="#" class="child">?????? ????????</a>
+                    </div>
+                </div><!-- end of item -->
+                <div class="link-container-of-item ">
+                    <div class="nav-item semiblue-background">
+                        ???????
+                    </div>
+                    <div class="item-links-childs">
+                      <a href="#" class="child">????? ???? </a>
+                      <a href="#" class="child">????? ??? </a>
+                      <a href="#" class="child">??? ????? </a>
+                      <a href="#" class="child">?????? ????? </a>
+                      <a href="#" class="child">??? ??? </a>
+                      <a href="#" class="child">?????? ????? </a>
+                    </div>
+                </div><!-- end of item -->
+                <div class="link-container-of-item">
+                    <div class="nav-item semigreen-background">
+                        ??????
+                    </div>
+                    <div class="item-links-childs">
+                      <a href="#" class="child">?????? ???????? </a>
+                      <a href="#" class="child">?????? ????? </a>
+                      <a href="#" class="child">?????? ????? </a>
+                      <a href="#" class="child">?????? ???????? </a>
+                      <a href="#" class="child">?????? ??????? </a>
+                      <a href="#" class="child">?????? ????? ??????? </a>
+                      <a href="#" class="child">?????? ??????? </a>
+                      <a href="#" class="child">?????? ??????? </a>
+                      <a href="#" class="child">?????? ??????? </a>
+                      <a href="#" class="child">?????? ????? ??????? </a>
+                      <a href="#" class="child">?????? ??????? </a>
+                    </div>
+                </div><!-- end of item -->
+                <div class="link-container-of-item ">
+                    <div class="nav-item semiblue-background">
+                        ???? ??????
+                    </div>
+                    <div class="item-links-childs">
+                      <a href="#" class="child">????? ??????</a>
+                       <a href="#" class="child">?????? ?????????</a>
+                       <a href="#" class="child">????? ?????? </a>
+                       <a href="#" class="child">????? ???? </a>
+                       <a href="#" class="child">????? ??? </a>
+                       <a href="#" class="child">????? ????? </a>
+                       <a href="#" class="child">????? ???? </a>
+                       <a href="#" class="child">????? ??? ?????? </a>
+                       <a href="#" class="child">????? ??? ?????? </a>
+                       <a href="#" class="child">????? ??? ????? </a>
+                       <a href="#" class="child"> ????? ???????  ???????</a>
+                    </div>
+                </div><!-- end of item -->
+                <div class="link-container-of-item">
+                    <div class="nav-item semigreen-background">
+                        ?????????
+                    </div>
+                    <div class="item-links-childs">
+                      <a href="#" class="child">????? ??????</a>
+                       <a href="#" class="child">??????? ??????</a>
+                    </div>
+                </div><!-- end of item -->
+            </div>
+        </div><!-- end container -->
+    </nav>
