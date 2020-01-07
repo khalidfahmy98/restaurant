@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo|Tajawal&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+    font-family:'Cairo',sans-serif;
+}
+body{
+    overflow-x:hidden;
+}
+.container-fluid{
+    margin:0px !important;
+    padding:0px !important;
+}
+.splittedSiteContainer{
+    height:100vh;
+    overflow:hidden;
+}
+.websiteContainer{
+    height:100vh;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+.siteLandingPageWrapper{
+    position: relative;
+    height:60vh;
+    background-image:url('../imgs/bg2.png');
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+}
+.landingpageLinksHeader{
+    padding:20px;
+    color:white;
+}
+.headerlink{
+    color:white;
+    padding:10px;
+}
+.headerlink:hover{
+    color:rgb(201, 201, 201);
+}
+.landingpageContext{
+    position: absolute;
+    top:50%;
+    left:60%;
+    transform:translate(-50%,-60%);
+}
+.landingContextHeader span{
+    color:white;
+    font-size:25px;
+}
+.landingpageContext p {
+    color:rgb(204, 204, 204);
+    margin-top:20px;
+}
+.landingControllers{
+    margin-top:40px;
+}
+.landController{
+    padding:8px;
+    font-size:10px;
+    color:white;
+    text-decoration:none !important;
+    border-radius:5px;
+    margin-left:15px;
+    border:0.5px solid white;
+}
+.landController:hover{
+    color:white;
+}
+.playbtn{
+    background-color: #c23616;
+    border-color:#c23616;
+}
