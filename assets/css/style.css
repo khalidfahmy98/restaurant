@@ -20,10 +20,13 @@ body{
     overflow-y:auto;
     overflow-x:hidden;
 }
+.websiteContainer::-webkit-scrollbar{
+    display:none;
+}
 .siteLandingPageWrapper{
     position: relative;
-    height:60vh;
-    background-image:url('../imgs/bg2.png');
+    height:80vh;
+    background-image:url('../imgs/BG-1.png');
     background-size:cover;
     background-attachment: fixed;
     background-repeat:no-repeat;
@@ -71,4 +74,49 @@ body{
 .playbtn{
     background-color: #c23616;
     border-color:#c23616;
+}
+.servicesWrapper{
+    padding-right:15px;
+}
+.serviceWrapper{
+    position: relative;
+    padding:20px;
+    padding-top:80px;
+    color:white !important;
+    cursor: pointer;
+    text-align:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height:215px;
+    text-decoration:none !important;
+}
+.serviceBadgeLabel{
+    font-size:20px;
+}
+.foodMenuBG{
+    background-image: url("../imgs/josh-bean-SITBRfxv_04-unsplash.jpg");
+}
+.sugaryBG{
+    background-image: url("../imgs/swapnil-dwivedi-Nl8Oa6ZuNcA-unsplash.jpg");
+}
+.deliveryBG{
+    background-image: url("../imgs/lucian-alexe-afDu-GuxjjM-unsplash.jpg");
+}
+.partiesBG{
+    background-image: url("../imgs/brooke-lark-YwSy97_Rk1o-unsplash.jpg");
+}
+.blackOverlay{
+    background-color:rgba(0, 0, 0, 0.411);
+    position: absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    z-index:999;
+}
+.serviceWrapper:hover  .blackOverlay{
+    display:none;
+}
+.adsWrapper{
+    height:4000px;
 }
