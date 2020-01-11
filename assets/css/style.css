@@ -117,6 +117,614 @@ body{
 .serviceWrapper:hover  .blackOverlay{
     display:none;
 }
-.adsWrapper{
-    height:4000px;
+.logoMenued{
+    width:200px;
+    display:block;
 }
+.menuItemsWrapper{
+    padding:20px;
+}
+.menuItem{
+    width:100%;
+    display:block;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:10px;
+    font-size:20px;
+    text-decoration:none !important;
+    color:#401407;
+}
+.menuItem:hover{
+    background-color: #401407;
+    border-right:10px solid #C23616;
+    color:white;
+}
+.activeMenuItem{
+    background-color: #401407;
+    border-right:10px solid #C23616;
+    color:white;
+}
+.adsWrapper{
+    padding-right:15px;
+}
+.bannerWrapper{
+    position: relative;
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height:500px;
+    cursor: pointer;
+}
+.bannerWrapper:hover .blackOverlay{
+    display:none;
+}
+.global-big-text{
+    color:white;
+    font-family:'Cairo',sans-serif;
+    width:100%;
+    text-align:center;
+}
+.barnched-text{
+    width:300px;
+    margin:auto;
+    text-align: center;
+    font-family:'Cairo',sans-serif;
+    color:white;
+}
+.text-white-link{
+    margin:30px auto;
+    width:150px;
+    font-size:18px;
+    text-align: center;
+    text-decoration:none !important;
+    display:block;
+    color:white !important;
+    font-family:'Cairo',sans-serif;
+    padding:10px;
+    border-bottom:2px solid white;
+}
+.sliding-controls{
+    margin-top:40px;
+    display: block;
+    padding:10px;
+    text-align:center;
+}
+.control{
+    display: inline-block;
+    background-color:rgba(255, 255, 255, 0.58);
+    padding:2px;
+    width:70px;
+}
+.active-control{
+    background-color:white;
+}
+.control{
+    cursor: pointer;
+}
+.p2 , .p3{
+    display:none;
+}
+
+/*    first section */
+.details-container,.countto-container{
+    background-color:white;
+    padding:10px;
+    padding-bottom:50px;
+    min-height:530px;
+}
+.details-container{
+    min-height: auto;
+}
+.element-item{
+    padding:15px;
+}
+.details-item-icon{
+    width:70px;
+    height:70px;
+    display: block;
+    margin:Auto;
+}
+.deitals-label{
+    color:#333;
+    width:100%;
+    text-align: center;
+    font-family:'Cairo',sans-serif;
+    cursor: default;
+}
+.details-paragrarph{
+    width:70%;
+    margin:auto;
+    display: block;
+    text-align: center;
+    color:gray;
+    font-family: 'Cairo',sans-serif;
+    cursor: default;
+}
+.element-item:hover{
+-webkit-box-shadow: -1px 2px 20px 0px rgba(212,165,93,0.29);
+-moz-box-shadow: -1px 2px 20px 0px rgba(212,165,93,0.29);
+box-shadow: -1px 2px 20px 0px rgba(212,165,93,0.29);
+}
+/*    end first section */
+/* count to section */
+.countto-container{
+    position: relative;
+    background-image: url("../imgs/bg-visitors.png");
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.elements-container{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%  , -50%);
+}
+.element-to-count{
+    padding:10px;
+    text-align: center;
+}
+.number-count{
+    display:block;
+    font-size:30px;
+    font-family:'Cairo',sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width:100%;
+    color:white;
+}
+.text-for-number{
+    font-family:'Cairo',sans-serif;
+    color:white;
+    font-size:20px;
+}
+/*end count to setion */
+/* opinions slider */
+.item-slider-of-opinions-container{
+    border:0.5px solid #242424;
+    padding:30px 10px 30px 10px;
+    position: relative;
+    border-radius:5px;
+    display: none;
+}
+.space-top-xl{
+    margin-top:160px;
+}
+.Text{
+    padding:10px;
+    text-align: center;
+    color:gray;
+    font-family:'Cairo',sans-serif;
+    font-size:16px;
+}
+.activate-slider{
+    display: block;
+}
+.user-img-in-slider {
+    width:80px;
+    height:80px;
+    margin:Auto;
+    border-radius:50%;
+    border:0.5px gray;
+}
+.text-name{
+    width:100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family:'Cairo',sans-serif;
+    color:black;
+    font-weight: bold;
+}
+.border-right{
+    background-color:white;
+    border-right:0.5px solid #242424;
+    padding:20px;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    position: absolute;
+    right:-20px;
+    top:48%;
+    transform:translate(0,-48%);
+}
+.border-left{
+    background-color:white;
+    border-left:0.5px solid #242424;
+    padding:20px;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    position: absolute;
+    left:-20px;
+    top:48%;
+    transform:translate(0,-48%);
+}
+.controlers{
+    width:100%;
+    padding:10px;
+    text-align: center;
+}
+.control-square{
+    cursor:pointer;
+    display: inline-block;
+    margin:auto;
+    width:10px;
+    height:10px;
+    background-color:#D7AC6A;
+}
+
+.control-square-active,.control-square:hover{
+    border-radius:50%;
+    background-color:#333;
+}
+/*end opinions slider */
+/*send message section */
+.change-img{
+    background-image: url("../imgs/bg-Say-Hello.png");
+    background-size: cover;
+    background-position:left;
+}
+.form-container{
+    padding:10px;
+}
+.input-of-form{
+    margin-top:10px;
+    padding:10px;
+    background:none;
+    border:none;
+    border-bottom:2px solid white;
+    font-family:'Cairo',sans-serif;
+    color:white;
+    outline:none;
+}
+.input-of-form:focus{
+    border-color:#D4A55D;
+    color:#D4A55D;
+}
+.input-of-form:focus::placeholder{
+    border-color:#D4A55D;
+    color:#D4A55D;
+}
+
+.input-of-form::placeholder{
+    color:white;
+}
+.send-btn{
+    background:none;
+    border:1px solid white;
+    padding:10px;
+    font-family:'Cairo',sans-serif;
+    color:white;
+    display: block;
+    margin:28px auto;
+}
+.send-btn:hover{
+    border-color:#D4A55D;
+    color:#D4A55D;
+}
+/* end of send messaage section */
+/* footer edits */
+.content{
+    min-height:500px;
+}
+.footer-container{
+    position: relative;
+    background-image:url("../imgs/BG--Footer.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+.label-of-list{
+    color:white;
+    padding:5px;
+    font-size:22px;
+    font-family:'Cairo',sans-serif;
+}
+.list-child{
+    list-style-type: none;
+    padding:11px 14px;
+    color:white;
+    font-family:'Cairo',sans-serif;
+}
+.list-child a{
+    color:gray;
+    font-family:'Cairo',sans-serif;
+    font-size:14px;
+}
+.inner-footer-container{
+    width:100%;
+    padding:10px;
+}
+.linking{
+    width:150px;
+    margin: auto;
+    text-align: center;
+    text-decoration:none !important;
+    cursor: pointer;
+}
+.social-media-links{
+    float:right;
+}
+.custom-icon-footer{
+    color:white;
+    padding:10px;
+    text-decoration: none;
+}
+.custom-icon-footer:hover{
+    color:#D4A55D;
+}
+.copyrights{
+    float:left;
+}
+.copyrights span{
+    color:white;
+    font-family: 'Cairo',sans-serif;
+    font-weight: Bold;
+}
+.copyrights a{
+    color:#D4A55D;
+    font-family: 'Cairo',sans-serif;
+    font-weight: Bold;
+    font-size:18px;
+}
+
+/* end footer edits */
+/* ========== end home page ============*/
+/* ============================================================ */
+/* ========= gallery ========= */
+.gallery-main-background{
+    background-image: url("../imgs/BG-Portfolio.png");
+}
+.control-gallery{
+    color:#333;
+    cursor:pointer;
+}
+.controlers-gallery{
+    width:100%;
+    text-align: center;
+}
+.img-item-gallery{
+    padding:10px;
+}
+
+/* ============ end gallery  ========*/
+/* ==============================================================*/
+/* ========= about us  ========= */
+.about-us-background{
+    background-image: url("../imgs/BG-About.png");
+}
+.about-us-text-container{
+    overflow: hidden;
+}
+.label-about{
+    font-family:'Cairo',sans-serif;
+    color:#507661;
+}
+.about-us-img-container{
+    position:relative;
+}
+.about-us-text{
+    padding:10px;
+    font-family:'Cairo',sans-serif;
+    color:#507661;
+}
+.img-of-emp{
+    position: relative;
+    overflow: hidden;
+    margin-top:35px;
+}
+.over-lay-of-img{
+    height:100%;
+    width:290px;
+    top:80%;
+    left:50%;
+    transform:translate(-50%,0);
+    position: absolute;
+    background-color:rgba(93, 123, 106, 0.68);
+    text-align:center;
+    cursor: pointer;
+    z-index:2
+}
+.overlay-text{
+    width:100%;
+    padding:10px;
+    position: absolute;
+    top:50%;
+    transform:translate(0,-50%);
+    color:white;
+    font-family:'Cairo',sans-serif;
+}
+.borde-bt{
+    font-weight: bold;
+    border-bottom:2px solid white;
+    font-size:22px;
+    display: block;
+    width:60%;
+    margin: auto;
+}
+.over-lay-icons{
+    position: absolute;
+    top:30px;
+    left:50%;
+    transform:translate(-50%,0);
+}
+.emp-img{
+    display: block;
+    margin:Auto;
+    filter: grayscale(100%);
+}
+.emp-img:hover{
+    filter:none;
+}
+/* ============ end about us  ========*/
+/* ==============================================================*/
+/* ========= orders catogries ========= */
+.order-catogrie-background{
+    background-image: url("../imgs/BG-2.png");
+}
+.orders-page-choose-link{
+    display: block;
+    padding:10px;
+    text-decoration: none !important;
+}
+.inner-child-choose{
+    border:2px solid white;
+    min-height:250px;
+    position: relative;
+}
+.catog-choose-img{
+    display: block;
+    margin:25px auto;
+}
+.catog-choose-text{
+    color:white;
+    font-family: 'Cairo',sans-serif;
+    text-align: center;
+    font-size:15px;
+    width:60%;
+    display: block;
+    margin:auto;
+    position: absolute;
+    bottom:30px;
+    left:50%;
+    transform:translate(-50%,0);
+    text-decoration: none !important;
+}
+.inner-child-choose:hover{
+    border:2px solid #D4A55D;
+}
+.inner-child-choose:hover .catog-choose-text{
+    color:#D4A55D;
+}
+.food-order-menu{
+    padding:20px;
+    min-height:600px;
+}
+.menu-image{
+    min-height:1320px;
+    background-image: url("../imgs/BG-Least.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.items-column{
+    padding:5px;
+}
+.colum-label{
+    width:50%;
+    display:inline-block;
+    font-family:'Cairo',sans-serif;
+    font-size:22px;
+    overflow: hidden;
+    color:#D4A55D;
+    padding:10px;
+    float:right;
+    border-bottom:1px solid #D4A55D;
+}
+.colum-controls{
+    width:45%;
+    display:inline-block;
+    color:#333;
+    text-align: left;
+    font-size:10px;
+}
+.large,.mediam,.small,.quant{
+    width:20%;
+    padding:10px;
+    font-family:'Cairo',sans-serif;
+    height:20px;
+    display: inline-block;
+}
+.product-container{
+    width:100%;
+    margin:10px auto;
+}
+.procut-name{
+    width:60%;
+    padding:5px;
+    display: inline-block;
+    font-family:'Cairo',sans-serif;
+    font-size:11px;
+}
+.choice-controlers{
+    width:30%;
+    display: inline-block;
+}
+.product{
+    width:22%;
+    padding:5px;
+    font-family:'Cairo',sans-serif;
+    font-size:10px;
+    display: inline-block;
+}
+.price-menu{
+    font-size:14px;
+    color:red;
+}
+.btn-order{
+    width:100%;
+    display: block;
+    margin:20px auto;
+    padding:10px;
+}
+.confirm-btn{
+    background-color:#D4A55D;
+    border:1px solid #D4A55D;
+    color:white;
+    font-family:'Cairo',sans-serif;
+    text-align:center;
+    padding:10px;
+    display: block;
+    margin: auto;
+}
+.confirm-btn:hover{
+    background:none;
+    color:#D4A55D;
+}
+.bill-body{
+    width:100%;
+}
+.table-head{
+    width:100%;
+    display: block;
+}
+.head-content{
+    display: inline-block;
+    border:0.5px solid #D4A55D;
+    padding:10px;
+    font-family:'Cairo',sans-serif;
+    text-align: center;
+    color:#D4A55D;
+}
+.head-content-re{
+    color:#333;
+    font-family:'Cairo',sans-serif;
+    padding:10px;
+    text-align: center;
+    border:0.5px solid lightgray;
+}
+.input-here{
+    padding:5px
+}
+.final-price{
+    width:100%;
+    display:block;
+    margin:20px auto;
+    text-align: right;
+    font-family:'Cairo',sans-serif;
+    color:#D4A55D;
+}
+.ff-price{
+    font-size:20px;
+    color:#333;
+}
+.orders{
+    border-color:#D4A55D;
+    color:#D4A55D;
+}
+.orders::placeholder{
+    color:#D4A55D;
+}
+/* ============ end orders catogries  ========*/
+/* ==============================================================*/
